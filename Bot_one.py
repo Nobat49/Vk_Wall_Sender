@@ -3,15 +3,15 @@ import requests
 import json
 import random
 
-token = "c1b7dfddca48fa79c144af2e8f12352d5f65ba28d6f29ab27a2108453b23e760739757894a69323419381"  # Токен группы
+token = GROUP_TOKEN  # Токен группы
 
 vk = vka.VkApi(token=token)
 
 i = 0
-group_id = 179062716   # ID вашей группы
+group_id = GROUP_ID   # ID вашей группы
 count = 0
 err = 0
-own = 215776978  # ID владельца гурппы
+own = OWNER_ID  # ID владельца гурппы
 send_ids = ""
 add_id = ""
 
